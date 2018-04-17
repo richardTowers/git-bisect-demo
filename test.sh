@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-echo "$(tput setaf 2)Tests passed!$(tput sgr0)"
-exit 0
+echo "$(tput setaf 1)Tests failed!$(tput sgr0)"
+exit 1
 
